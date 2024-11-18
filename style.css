@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.flex-container{
+    display:flex;
+    flex-direction: column;
+   align-items: center;
+}
+.table-heading{
+   background-color: aquamarine;
+   margin-top: 50px;
+   padding: 20px;
+    }
+#update-table,tr,th,td{
+    background-color: aquamarine;
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+#registration-form{
+    background-color: rgb(151, 187, 253);
+    margin-top: 30px;
+    padding: 30px;
+    }
+    input,label{
+        padding:5px;
+        margin-top:10px;
+        border-radius: 5px;
+    }
